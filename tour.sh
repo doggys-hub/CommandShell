@@ -8,3 +8,7 @@ elif [ "$1" == "help" ] then
 elif [ "$1" == "install-libs" ]
   echo "Ubuntu & Debian: sudo apt upgrade && sudo apt update && sudo apt install python-is-python3"
   echo "Others: Read The 'GUIDE.md' Done"
+else
+  echo "Try '$1' For Help"
+  exit 1
+fi
